@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $page-bg;
+  color: $text-color;
+  font-family: $font-main;
+  font-size: 12px;
+}
+
+a,
+button {
+  transition: all 0.2s ease-in;
+  &:hover {
+    opacity: 0.4;
+  }
+}
+
+.title-1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  @media (min-width: $tablet-size) {
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px; /* 130.303% */
+  }
+}
+
+.title-2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+  @media (min-width: $tablet-size) {
+    font-size: 26px;
+    line-height: 25px; /* 96.154% */
+    text-transform: capitalize;
+  }
+}
+
+.text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  @media (min-width: $tablet-size) {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+  }
+}
+
+.text-black {
+  color: #000;
+}

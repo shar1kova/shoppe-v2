@@ -1,0 +1,11 @@
+<section class="shop-later">
+  <div class="container">
+    <div class="title-row">
+      <h2 class="title-1">Shop The Latest</h2>
+      <a href="catalog.html" class="view-all">View All</a>
+    </div>
+    <div class="shop-later__content">
+      @@loop('./../templates/product-cart.html', "./data/products.json")
+    </div>
+  </div>
+</section>

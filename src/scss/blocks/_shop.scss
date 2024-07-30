@@ -1,0 +1,15 @@
+.shop__title {
+  margin-bottom: 15px;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--light-colors-accent-light, #a18a68);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}

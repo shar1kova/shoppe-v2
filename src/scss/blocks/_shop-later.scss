@@ -1,0 +1,40 @@
+.shop-later {
+  padding: 64px 0;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-all {
+  color: #a18a68 !important;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  @media (min-width: $tablet-size) {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    text-transform: capitalize;
+  }
+}
+.shop-later__content {
+  padding: 13px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  @media (min-width: $tablet-size) {
+    padding: 39px 0;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  @media (min-width: $laptop-size) {
+    gap: 56px;
+  }
+}

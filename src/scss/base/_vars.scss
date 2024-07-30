@@ -1,0 +1,17 @@
+$container-width: 1276px;
+$container-padding: 15px;
+
+$font-main: "DM Sans", sans-serif;
+
+$page-bg: #fff;
+$text-color: #000;
+$accent: #a18a68;
+
+$laptop-size: 1440px;
+$tablet-size: 720px;
+$mobile-size: 320px;
+
+.dark {
+  $page-bg: #252526;
+  $text-color: #fff;
+}

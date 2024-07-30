@@ -1,0 +1,45 @@
+[
+  {
+    "img": "01.jpg",
+    "title": "Lira Earrings",
+    "price": "20,00",
+    "earning": " ",
+    "sale": "shop-later__cart--sale "
+  },
+  {
+    "img": "02.jpg",
+    "title": "Hal Earrings",
+    "price": "25,00",
+    "earning": " ",
+    "sale": "shop-later__cart--sale"
+  },
+
+  {
+    "img": "03.jpg",
+    "title": "Kaede Hair Pin Set Of 3 ",
+    "price": "30,00",
+    "earning": " ",
+    "sale": "shop-later__cart--sale"
+  },
+  {
+    "img": "04.jpg",
+    "title": "Hair Pin Set of 3",
+    "price": "30,00",
+    "earning": " ",
+    "sale": "shop-later__cart--sale"
+  },
+  {
+    "img": "05.jpg",
+    "title": "Plaine Necklace",
+    "price": "19,00",
+    "earning": " ",
+    "sale": "shop-later__cart--sale"
+  },
+  {
+    "img": "06.jpg",
+    "title": "Yuki Hair Pin Set of 3",
+    "price": "29,00",
+    "earning": " ",
+    "sale": "shop-later__cart--sale"
+  }
+]

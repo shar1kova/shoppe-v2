@@ -1,0 +1,20 @@
+<section class="hero">
+  <div class="container-right">@@include('header-mobile-slider.html')</div>
+  <div class="container">
+    @@include('./elements/search.html')
+    <!-- Slider main container -->
+    <div class="hero-slider swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        @@include('./hero-slides/slide-01.html')
+        @@include('./hero-slides/slide-02.html')
+        @@include('./hero-slides/slide-03.html')
+        @@include('./hero-slides/slide-04.html')
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="hero__pagination swiper-pagination"></div>
+    </div>
+  </div>
+</section>

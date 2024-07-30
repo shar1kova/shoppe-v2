@@ -1,0 +1,16 @@
+.header-swiper {
+  @media (min-width: $tablet-size) {
+    display: none;
+  }
+}
+.header-swiper__slide {
+  width: 140px;
+}
+
+.header-swiper__button {
+  width: 140px;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px #d8d8d8 solid;
+  border-radius: 4px;
+}
