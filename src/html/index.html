@@ -37,9 +37,11 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    @@include('blocks/header.html') @@include('blocks/hero.html')
-    @@include('blocks/shop-later.html') @@include('blocks/footer.html')
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/index.bundle.js"></script>
+    <div class="site-wrapper">
+      @@include('blocks/header.html') @@include('blocks/hero.html')
+      @@include('blocks/shop-later.html') @@include('blocks/footer.html')
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./js/index.bundle.js"></script>
+    </div>
   </body>
 </html>
